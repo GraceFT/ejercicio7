@@ -1,4 +1,4 @@
-function evaluar(){
+*function evaluar(){
     var aSmile = document.getElementById("a").value;
     var bSmile = document.getElementById("b").value;
     var isASmile = false;
@@ -22,4 +22,4 @@ function evaluar(){
             salida.innerHTML="0";
         }
     }
-}
+}*
