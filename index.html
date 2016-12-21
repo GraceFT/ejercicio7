@@ -1,0 +1,42 @@
+<!DOCTOYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monkey Trouble</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+   <div class="container">
+       <div class="row">
+            <h1 class="text-center">Monkey Trouble</h1>
+            <p class="text-center">Cuando nos encontramos en problemas??</p>
+       </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <label for="aSmile">El Mono A me esta sonriendo? </label>
+               <select  id="a" class="form-control">
+                  <option value="1">Si</option>
+                  <option value="2">No</option>
+                </select>
+           </div>
+        </div>
+        <div class="row">      
+            <div class="col-md-8 col-md-offset-2">
+                <label for="bSmile">El mono B me esta sonriendo?</label>
+               <select id="b" class="form-control">
+                  <option value="1">Si</option>
+                  <option value="2">No</option>
+                </select>   
+            </div>
+        </div>
+        <br>
+        <div class="col-md-8 col-md-offset-2 text-center">
+        <button onclick="evaluar()" class="btn btn-danger" class="text-center">EVALUAR</button>
+        <br>
+        <h3>ESTAMOS EN PROBLEMAS!</h3>
+        <div id="salida" style="font-size:30px" class="text-center";>--</div>
+       </div> 
+    </div>   
+</body>
+ <script src="main.js"></script>
+</html>
