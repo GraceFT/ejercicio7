@@ -12,9 +12,13 @@ Inicio: Evaluar cuando estamos en problemas.
 ##Proceso
 - Obtener el valor de aSmile
 - Obtener el valor de bSmile
-- Si a y b//Sonrien o No sonrien 
-    retornar 1//estamos en problemas
-  Si no 
-    retornar 0//no estamos en problemas
-            
+- Si a & b//Sonrien
+    -Mostrar 1//estamos en problemas
+    -Si no
+        - Si a & b //No sonrien
+            - Mostrar 1//estamos en problemas
+        - Si no 
+            - Mostrar 0//no estamos en problemas
+    Fin si        
+Fin si        
 *Fin*
